@@ -3,6 +3,8 @@
   "displayName": "Code Recall",
   "description": "Code Recall empowers you to set personalized messages, ensuring that each time you reopen the editor, you're gently reminded of your last focus and tasks, creating a seamless transition back into your coding flow.",
   "version": "1.0.0",
+  "license": "MIT",
+  "publisher": "emorrisn",
   "repository": "https://github.com/emorrisn/code-recall",
   "engines": {
     "vscode": "^1.85.0"

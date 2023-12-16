@@ -28,6 +28,7 @@ Additionally, a popup will appear which looks like this:
 
 * Settings to customise how recalls appear
 * Multiple recalls in one (so more of a list of messages than just a message)
+* Popup to show progress as to when it's about to leave
 * Performance and quality improvements
 
 ### 1.0.0
