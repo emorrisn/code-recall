@@ -1,0 +1,42 @@
+{
+  "name": "code-recall",
+  "displayName": "Code Recall",
+  "description": "Code Recall empowers you to set personalized messages, ensuring that each time you reopen the editor, you're gently reminded of your last focus and tasks, creating a seamless transition back into your coding flow.",
+  "version": "1.0.0",
+  "repository": "https://github.com/emorrisn/code-recall",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [{
+      "command": "code-recall.show-recall",
+      "title": "Show the recall message"
+    },
+    {
+      "command": "code-recall.edit-recall",
+      "title": "Edit the recall message"
+    }]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "node ./test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "@types/mocha": "^10.0.3",
+    "@types/node": "18.x",
+    "eslint": "^8.52.0",
+    "glob": "^10.3.10",
+    "mocha": "^10.2.0",
+    "typescript": "^5.2.2",
+    "@vscode/test-electron": "^2.3.6"
+  }
+}
