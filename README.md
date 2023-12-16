@@ -8,16 +8,15 @@ Save quick reminders with a click of a button and receive automatic pop-ups when
 
 A button will appear on the bottom bar of your editor, useful for when you're about to exit from the editor and finish your work.
 
-![btn](https://github.com/emorrisn/code-recall/assets/btn.png)
+![btn](https://github.com/emorrisn/code-recall/blob/master/assets/btn.png)
 
 Once loaded, if you have a message set from the previous coding session, you will recieve a notification that looks like this:
 
-![btn](https://github.com/emorrisn/code-recall/assets/popup.png)
+a![popup](https://raw.githubusercontent.com/emorrisn/code-recall/master/assets/popup.png)
 
 Additionally, a popup will appear which looks like this:
 
-![btn](/assets/popup2.png)
-
+![Main Popup](https://github.com/emorrisn/code-recall/blob/master/assets/popup2.png)
 
 ## Requirements
 
